@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+main{
+	margin: 1vw 10vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.container-0{
+	margin-top: 4vw;
+}
+
+.container{
+	margin: 2vw 23vw;
+	text-align: center;
+    font-size: 30px;
+}
+
+.link{
+	color: DodgerBlue;
+	background-color: transparent;
+	border: none;
+    padding: 0 2vw;
+    margin: 3vw;
+    font-size: 22px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.link:hover{
+	color: RoyalBlue;
+}
+
+.send{
+	color: white;
+	background-color: rgb(30, 30, 30);
+	border: none;
+    padding: 1vw;
+    margin: 3vw;
+    font-size: 18px;
+    width: 335px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.send:hover{
+	background-color: rgb(10, 10, 10);
+}
+
+h1{
+	color: DarkCyan;
+}
+
+input, textarea{
+	font-size: 18px;
+	width: 330px;
+}
+
+div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin-bottom: 1vw;
+}
